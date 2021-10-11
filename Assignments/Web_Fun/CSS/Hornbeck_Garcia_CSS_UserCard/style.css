@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* border:red 1px dotted; */
+}
+.card{
+    border: black 1px solid;
+    width: 383px;
+    height: 225px;
+}
+header{
+    height: 25%;
+    background-color: rgb(68, 0, 255);
+}
+img{
+    width: 5rem;
+    margin-top: -10%;
+    margin-left: 4%;
+}
+.info img{
+    width:2%;
+    margin-top:0%;
+    margin-left:0%;
+}
+.location img, .location p{
+    width:1%;
+    margin-top:0%;
+    margin-left:0%;
+    display:inline-block;
+}
+.info{
+    margin-left:4%;
+}
+h1{
+    font-size:inherit;
+}

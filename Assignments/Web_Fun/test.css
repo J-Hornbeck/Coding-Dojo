@@ -1,0 +1,30 @@
+.title{
+    background-color:black;
+    color:white;
+    height:4rem;
+    display:flex;
+    align-items:center;
+    padding-left:2rem;  
+}
+
+.users{
+    display:flex;
+    align-items:center;
+    flex:2;    
+}
+.users img{
+    width:5rem;
+    margin-bottom:1rem;
+}
+.users button img{
+    width:2rem;
+    margin-bottom:0rem;
+    border-style:none;
+}
+.butt{
+    flex:1;
+    display:flex;
+    justify-content:right;
+    border-style:none;
+    margin-bottom:0rem;
+}

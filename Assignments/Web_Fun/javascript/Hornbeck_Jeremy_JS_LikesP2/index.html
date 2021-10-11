@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes P2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <h1 class="container" id="navbar">Network</h1>
+    <h1 class="container" id="feed">Your Feed</h1>
+
+    <div class="container" id="body">    
+        <!-- Left Column -->
+        <div id="left-column">
+            <img src="user-circle.png" alt="User Profile">
+            <a href="#">Add an avatar</a>
+            <p class="userName">James Doe</p>
+        </div>
+        <!-- Right Column -->
+        <div id="right-column">
+            <div id="user1">
+                <p class="userName">Neil M</p>
+                <div class="likes">
+                    <p id="user1Likes"><span id="likeNumber1">0</span> like(s)</p>
+                    <button id="likeBtn1" onclick="like1(this)">Like</button>
+                </div>
+                <p>This is some filler text, it can say anything we like</p>
+            </div>
+            <div id="user2">
+                <p class="userName">Nichole K</p>
+                <div class="likes">
+                    <p id="user2Likes"><span id="likeNumber2">0</span> like(s)</p>
+                    <button id="likeBtn2" onclick="like2(this)">Like</button>
+                </div>
+                <p>This is some filler text, it can say anything we like</p>
+            </div>
+            <div id="user3">
+                <p class="userName">Jim R</p>
+                <div class="likes">
+                    <p id="user3Likes"><span id="likeNumber3">0</span> like(s)</p>
+                    <button id="likeBtn3" onclick="like3(this)">Like</button>
+                </div>
+                <p>This is some filler text, it can say anything we like</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

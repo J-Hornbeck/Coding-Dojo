@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    /* height: 700px; */
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border: black 1px solid;
+    box-shadow: black 0px 0px 17px 2px;
+}
+
+header {
+    height: 8rem;
+    background-color: blue;
+}
+
+#user {
+    width: 8rem;
+    margin-top: -4rem;
+    margin-left: 2rem;
+    filter: invert(1);
+    box-shadow: white 0px 0px 0px 4px;
+    border-radius: 61%;
+}
+
+.small {
+    width: 1.5rem;
+    margin: 5px;
+}
+
+.expo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.control>* {
+    margin-left: 2rem;
+}

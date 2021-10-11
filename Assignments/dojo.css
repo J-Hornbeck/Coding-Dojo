@@ -1,0 +1,122 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Flex Navbar */
+.navbar {
+    background-color: slategray;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.navbar ul.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    font-size: 25px;
+}
+
+.navbar li {
+    margin: 0px 10px;
+}
+
+.navbar .nav-title {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .btn {
+    box-shadow: 2px 2px 2px black;
+    background-color: cornflowerblue;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    padding: 0rem 1rem;
+}
+
+/* profile card */
+.card {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border: black 1px solid;
+    box-shadow: black 0px 0px 17px 2px;
+}
+
+.card header {
+    height: 8rem;
+    background-color: blue;
+}
+
+.card #user {
+    width: 8rem;
+    margin-top: -4rem;
+    margin-left: 2rem;
+    filter: invert(1);
+    box-shadow: white 0px 0px 0px 4px;
+    border-radius: 61%;
+}
+
+.card .small {
+    width: 1.5rem;
+    margin: 5px;
+}
+
+.card .expo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.card .control>* {
+    margin-left: 2rem;
+}
+
+/* columns */
+#column .left{
+    flex:2;
+    margin:5rem;
+    margin-left:10rem;
+}
+
+#column .right{
+    flex:1;
+    margin:5rem;
+    margin-right:10rem;
+    vertical-align:bottom;
+}
+
+/* title */
+.title{
+    background-color:black;
+    color:white;
+    height:4rem;
+    display:flex;
+    align-items:center;
+    padding-left:2rem;  
+}
+
+/* number circle  */
+.circle{
+    background-color:gray;
+    color:black;
+    border-radius: 50%;
+    padding:.5rem;
+}

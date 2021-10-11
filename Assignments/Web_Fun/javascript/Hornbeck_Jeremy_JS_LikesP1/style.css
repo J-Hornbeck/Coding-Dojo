@@ -1,0 +1,38 @@
+* {
+    border: 0px;
+    margin: 0px;
+    font-size: 1rem;
+}
+
+#user1 {
+    border: black solid 0.2rem;
+    padding: 0rem 0.5rem 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 2rem;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    margin: 0px 5px 0px 0px;
+}
+
+#user1Likes {
+    margin-right: 1.5rem;
+}
+
+.userName {
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(255, 255, 0);
+    font-size: 1rem;
+    margin: 0rem 1rem 1rem 1rem;
+    border: black solid 2px;
+    margin-top: 15px;
+}

@@ -1,0 +1,123 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    background-color: cornflowerblue;
+}
+
+header .container, .city {
+    justify-content: space-between;
+    align-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.container ul li {
+    margin: 0px 10px;
+}
+
+.city {
+    border-bottom: black solid 0.2rem;
+    padding: 1rem 0rem;
+}
+
+.city > div {
+    display: flex;
+    align-items: center;
+}
+
+#CF {
+    margin-left: 0.3rem;
+}
+
+.container .day {
+    justify-content: center;
+    width: inherit;
+}
+
+.day {
+    background-color: lightgray;
+    width: 200px;
+    padding: 15px;
+    margin: 2rem 0.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0rem 0rem 1.5rem;
+}
+
+.day img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.day p {
+    text-align: center;
+    margin: 1rem 0rem;
+    font-size: 1.5rem;
+}
+
+.HC {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tempHot, .tempCold {
+    font-size: 1.5rem;
+}
+
+.tempHot1, .tempHot2, .tempHot3, .tempHot4 {
+    color: red;
+}
+
+.tempCold1, .tempCold2, .tempCold3, .tempCold4 {
+    color: blue;
+}
+
+.cookies {
+    position: fixed;
+    border: black solid .2rem;
+    box-shadow: 0px 0px 15px 2px;
+    left: 21rem;
+}
+
+.cookies img {
+    margin: 2rem;
+}
+
+.cookies h3 {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.btn {
+    align-self: center;
+    margin: 2rem;
+    width: 150px;
+    background-color: skyblue;
+    box-shadow: black 2px 2px 2px;
+}

@@ -1,0 +1,42 @@
+.nav {
+    background-color: slategray;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+ul.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    font-size: 25px;
+}
+
+li {
+    margin: 0px 10px;
+}
+
+.nav-title {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    box-shadow: 2px 2px 2px black;
+    background-color: cornflowerblue;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    align-content:center;
+    align-self:center;
+    margin-right:.5rem;
+    padding:0px 4px;
+}

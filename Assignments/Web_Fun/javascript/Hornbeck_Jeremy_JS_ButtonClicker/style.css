@@ -1,0 +1,142 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+/* div.container {
+    display: block;
+} */
+
+header{
+    background-color: gray;
+    padding: 0.5rem;
+    justify-content: space-between;
+    font-size: xx-large;
+    align-content: center;
+}
+
+header input {
+    width: 25rem;
+    height: 3em;
+    align-self: center;
+}
+
+/* buttons */
+header button {
+    background-color: blue;
+    color: white;
+    padding: 0rem 1rem;
+    justify-self: flex-end;
+    align-self: center;
+    font-size: 2.5rem;
+}
+
+button {
+    box-shadow: black 2px 2px 2px 2px;
+}
+
+.left-column button {
+    background-color: yellow;
+    padding: 1rem;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.right-column button {
+    background-color: greenyellow;
+    padding: 1rem;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+/* buttons */
+
+#top, #bottom, .right-column {
+    border: .25rem black solid;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+div.container {
+    justify-content: space-between;
+    padding: 0rem;
+    margin-top: 2rem;
+}
+
+.left-column {
+    flex: 4;
+    margin-right: 2rem;
+}
+
+.right-column {
+    flex: 1.5;
+    margin-left: 4rem;
+}
+
+#top, #bottom{
+    display: flex;
+    text-align: center;
+}
+
+#top div, #bottom div {
+    flex: 2;
+    margin-right: 2rem;
+    font-size: 2.5rem;
+}
+
+#top > p, #bottom > p{
+    flex: 6;
+    text-align: left;
+    padding: 2rem 0rem;
+    font-size: 2.5rem;
+    align-self: center;
+}
+
+.right-column {
+    height: fit-content;
+    font-size: 2.5rem;
+    
+}
+
+/* .def, .dby {
+    border: black solid .15rem;
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+.def button {
+    background-color: yellow;
+    align-self: flex-end;
+    justify-self: left;
+}
+
+.dby button {
+    background-color: green;
+ } */
+
+
+
+.def {
+    display: flex;
+    flex: 2;
+    height: 10rem;
+}
+
+.def div {
+    align-content: space-between;
+}
+
+div .container {
+    display: inline-block;
+} */
